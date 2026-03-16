@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My Online Market</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background-color:#f2f2f2;
+    text-align:center;
+}
+
+header{
+    background-color:#333;
+    color:white;
+    padding:20px;
+    font-size:30px;
+}
+
+.store{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.item{
+    background:white;
+    border-radius:10px;
+    padding:15px;
+    margin:20px;
+    width:200px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.item img{
+    width:100%;
+}
+
+.price{
+    color:green;
+    font-size:20px;
+}
+
+button{
+    background-color:#007bff;
+    color:white;
+    border:none;
+    padding:10px;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#0056b3;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+My Online Market
+</header>
+
+<div class="store">
+
+<div class="item">
+<a href="laptop.html">
+<img src="laptop.jpg">
+</a>
+<h3>Laptop</h3>
+<p class="price">$800</p>
+<a href="laptop.html"><button>View Item</button></a>
+</div>
+
+<div class="item">
+<a href="phone.html">
+<img src="phone.jpg">
+</a>
+<h3>Phone</h3>
+<p class="price">$500</p>
+<a href="phone.html"><button>View Item</button></a>
+</div>
+
+<div class="item">
+<a href="headphones.html">
+<img src="headphones.jpg">
+</a>
+<h3>Headphones</h3>
+<p class="price">$120</p>
+<a href="headphones.html"><button>View Item</button></a>
+</div>
+
+</div>
+
+</body>
+
+</html>
